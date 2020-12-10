@@ -1,38 +1,36 @@
+#początek losowanie liczb
 import random
-mylist = []
-for i in range(0, 5):
-    x = random.randint(1, 200)
-    mylist.append(x)
-    mylist.sort()
-print(mylist)
+ListaWylosowanychLiczb = []#tworzenie pustej tablicy potem w linice 6 dodajemy liczby do tej tablicy
+for i in range(0, 5):#ile liczb ma sie wylosowac domyslnie 5
+    x = random.randint(1, 200)#zakres liczb od 1 do 200
+    ListaWylosowanychLiczb.append(x)#dodawania liczb "x" do tablicy
+    ListaWylosowanychLiczb.sort()#sortowanie liczb po dodaniu
+print(ListaWylosowanychLiczb)#dac to jako komentarz zeby user nie widzial jakie sa wylosowane liczby ale do ulatwienia dodalem zeby wiedziec jakie sa mozliwe odpowiedzi
 
-A=mylist[0]
-Z=mylist[4]
+A = ListaWylosowanychLiczb[0]#najmniejsza liczba
+Z = ListaWylosowanychLiczb[4]#najwieksza liczba
+G = ListaWylosowanychLiczb[2]#poprawna odpowiedz dla ułatwienia
+#koniec losowanie
 
-print("Najmniejsa wysolowana liczba to: ", A)
-print("Największa wysolowana liczba to: ", Z)
+#początek zakresu
+print("NAJMNIEJSZA Z WYLOSOWANYCH LICZB TO...", A)
+print("NAJWIĘKSZA Z WYLOSOWANYCH LICZB TO...", Z)
+#koniec zakresu
 
-#for i in range(3):
- #   print("Próba ", i + 1)
-  #  odp = input("Jaką liczbę od 1 do 50 mam na myśli? ")
-    # print("Podałeś liczbę: ", odp)
-
-   # if liczba == int(odp):
-    #    print("Zgadłeś! Dostajesz długopis!")
-     #   break
-    #elif i == 2:
-     #   print("Miałem na myśli liczbę: ", liczba)
-    #else:
-     #   print("Nie zgadłeś. Spróbuj jeszcze raz.")
-    #print()
+#początek petla do zgadywania
+for i in ListaWylosowanychLiczb:#petla for dziala na tablicy 
+    odp = int(input("Jaką liczbę od 1 do 200 mam na myśli? "))#podawanie odpowiedz przez user
+    if odp == G:#warunek jak user zgadnie
+        print("BRAWO")
+        break
+    else:#warunek jak user nie zgadnie
+        print("NIESTETY")
+        print("PRÓBUJ DO SKUTKU")
+#koniec petla do zgadywania
 
 """
-Na ocenę dobrą:-komputer losuje liczbęz zakresu 1-50-użytkownik próbuj odgadnąć tą liczbę
--jeżeli odgaduje, to komunikat BRAWO-w przeciwnym razie komunikat NIESTETY
-Na ocenę bardzo dobrą:-komputer losuje liczbęz zakresu 1-50-użytkownik próbuj odgadnąć tą liczbę
--jeżeli odgaduje, to komunikat BRAWO-w przeciwnym razie komunikat NIESTETYoraz PRÓBUJ DO SKUTKU (program wraca do początku)
-Na oceną celującą:-komputer losuje pięć liczb(zakres 1-200)
--wyznacza największą i najmniejsząz nich
--komputer wyświetla komunikat: NAJMNIEJSZA Z WYLOSOWANYCH LICZB TO...NAJWIĘKSZA Z WYLOSOWANYCH LICZB TO...
-Do 18 grudnia
+miejsce na ocenę:
+
+
+
 """
