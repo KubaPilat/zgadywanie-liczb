@@ -1,4 +1,4 @@
-# !!!Trzeba pamietac zeby dac linijke 8 `print(ListaWylosowanychLiczb)` jako komentarz!!!
+# !!!Trzeba pamietac zeby dac linijke 8 ```Python print(ListaWylosowanychLiczb)``` jako komentarz!!!
 
 
 Polecenie :
