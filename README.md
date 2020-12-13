@@ -18,6 +18,3 @@ Polecenie :
   - wyznacza największą i najmniejsząz nich-komputer wyświetla komunikat:
   NAJMNIEJSZA Z WYLOSOWANYCH LICZB TO...
   NAJWIĘKSZA Z WYLOSOWANYCH LICZB TO...
-
-* testA:
-  *testa1
