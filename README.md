@@ -2,7 +2,7 @@
 
 
 Polecenie :
-- [x] Na ocenę dobrą:
+- [ ]\(Optional) Na ocenę dobrą:
   - komputer losuje liczbęz zakresu 1-50
   - użytkownik próbuj odgadnąć tą liczbę
   - jeżeli odgaduje, to komunikat BRAWO
