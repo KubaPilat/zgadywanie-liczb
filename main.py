@@ -1,6 +1,6 @@
 #początek losowanie liczb
 import random
-ListaWylosowanychLiczb = []#tworzenie pustej tablicy potem w linice 6 dodajemy liczby do tej tablicy
+ListaWylosowanychLiczb = []#tworzenie pustej tablicy potem w linijce 6 dodajemy liczby do tej tablicy
 for i in range(0, 5):#ile liczb ma sie wylosowac domyslnie 5
     x = random.randint(1, 200)#zakres liczb od 1 do 200
     ListaWylosowanychLiczb.append(x)#dodawania liczb "x" do tablicy
