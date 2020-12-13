@@ -15,6 +15,6 @@ Polecenie :
 
 - Na oceną celującą:
   - komputer losuje pięć liczb(zakres 1-200)
-  - wyznacza największą i najmniejsząz nich-komputer wyświetla komunikat: 
+  - wyznacza największą i najmniejsząz nich-komputer wyświetla komunikat:
   -NAJMNIEJSZA Z WYLOSOWANYCH LICZB TO...
   -NAJWIĘKSZA Z WYLOSOWANYCH LICZB TO...
