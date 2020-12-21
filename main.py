@@ -27,10 +27,3 @@ for i in ListaWylosowanychLiczb:#petla for dziala na tablicy
         print("NIESTETY")
         print("PRÓBUJ DO SKUTKU")
 #koniec petla do zgadywania
-
-"""
-miejsce na ocenę:
-
-
-
-"""
